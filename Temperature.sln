@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperature", "Temperature\Temperature.csproj", "{4BFFFFCA-02CD-4F28-8B46-395F97B483B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureWindowsFormsApplication", "TemperatureWindowsFormsApplication\TemperatureWindowsFormsApplication.csproj", "{D2ED0FF3-D6BE-439E-9EB9-6663E6053C2B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BFFFFCA-02CD-4F28-8B46-395F97B483B4} = {4BFFFFCA-02CD-4F28-8B46-395F97B483B4}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(2)", "http://localhost:51417", "{65F5C1D1-D255-442B-A838-84D2FBD4C78C}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51417"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51417\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51417"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\WebSites\WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51417\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\WebSites\WebSite1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{4BFFFFCA-02CD-4F28-8B46-395F97B483B4} = {4BFFFFCA-02CD-4F28-8B46-395F97B483B4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JohnDoesBrowser", "JohnDoesBrowser\JohnDoesBrowser.csproj", "{21BEA39B-0D3C-4B5B-9523-AD791D74C5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFFFFCA-02CD-4F28-8B46-395F97B483B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFFFFCA-02CD-4F28-8B46-395F97B483B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFFFFCA-02CD-4F28-8B46-395F97B483B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BFFFFCA-02CD-4F28-8B46-395F97B483B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ED0FF3-D6BE-439E-9EB9-6663E6053C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ED0FF3-D6BE-439E-9EB9-6663E6053C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ED0FF3-D6BE-439E-9EB9-6663E6053C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ED0FF3-D6BE-439E-9EB9-6663E6053C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F5C1D1-D255-442B-A838-84D2FBD4C78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F5C1D1-D255-442B-A838-84D2FBD4C78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F5C1D1-D255-442B-A838-84D2FBD4C78C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F5C1D1-D255-442B-A838-84D2FBD4C78C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{21BEA39B-0D3C-4B5B-9523-AD791D74C5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BEA39B-0D3C-4B5B-9523-AD791D74C5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BEA39B-0D3C-4B5B-9523-AD791D74C5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BEA39B-0D3C-4B5B-9523-AD791D74C5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
