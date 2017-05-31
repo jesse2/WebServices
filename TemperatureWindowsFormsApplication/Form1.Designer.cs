@@ -30,12 +30,12 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.c2fButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.f2cButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -56,15 +56,15 @@
             this.textBox1.Size = new System.Drawing.Size(57, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // button1
+            // c2fButton
             // 
-            this.button1.Location = new System.Drawing.Point(74, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Convert";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.c2fButton.Location = new System.Drawing.Point(74, 56);
+            this.c2fButton.Name = "c2fButton";
+            this.c2fButton.Size = new System.Drawing.Size(57, 23);
+            this.c2fButton.TabIndex = 2;
+            this.c2fButton.Text = "Convert";
+            this.c2fButton.UseVisualStyleBackColor = true;
+            this.c2fButton.Click += new System.EventHandler(this.c2fButton_Click);
             // 
             // label2
             // 
@@ -100,15 +100,15 @@
             this.textBox2.Size = new System.Drawing.Size(54, 20);
             this.textBox2.TabIndex = 6;
             // 
-            // button2
+            // f2cButton
             // 
-            this.button2.Location = new System.Drawing.Point(74, 124);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(54, 23);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Convert";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.f2cButton.Location = new System.Drawing.Point(74, 124);
+            this.f2cButton.Name = "f2cButton";
+            this.f2cButton.Size = new System.Drawing.Size(54, 23);
+            this.f2cButton.TabIndex = 7;
+            this.f2cButton.Text = "Convert";
+            this.f2cButton.UseVisualStyleBackColor = true;
+            this.f2cButton.Click += new System.EventHandler(this.f2cButton_Click);
             // 
             // label5
             // 
@@ -135,12 +135,12 @@
             this.ClientSize = new System.Drawing.Size(217, 164);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.f2cButton);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.c2fButton);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -154,12 +154,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button c2fButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button f2cButton;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
     }

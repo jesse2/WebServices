@@ -18,7 +18,7 @@ namespace TemperatureWindowsFormsApplication
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void c2fButton_Click(object sender, EventArgs e)
         {
             Service1Client hw = new Service1Client();
             int c = Convert.ToInt32(textBox1.Text);
@@ -26,7 +26,7 @@ namespace TemperatureWindowsFormsApplication
             label3.Text = f.ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void f2cButton_Click(object sender, EventArgs e)
         {
             Service1Client hr = new Service1Client();
             int f = Convert.ToInt32(textBox2.Text);
